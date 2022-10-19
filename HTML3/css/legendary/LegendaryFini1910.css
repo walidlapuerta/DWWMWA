@@ -1,0 +1,217 @@
+body {
+    background-color: #EFE784;
+}
+
+section {
+    margin-left: 15%;
+    width: 70%;
+    font-size: larger;
+    font-family: 'Roboto';
+    background-color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: left;
+}
+
+#header {
+    padding-bottom: 1px;
+}
+
+#intro {
+    background-color: #4A4444;
+    height: 500px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    color: #EFE784;
+    margin-top: -5%;
+    /* position: relative; */
+}
+
+#avengers {
+    background-color: white;
+    padding-top: 1px;
+    height: 1000px;
+}
+
+#astarisborn {
+    background-color: #6CBCB3;
+    padding-top: 1px;
+    color: #4A4444;
+    height: 1000px;
+}
+
+#womanatwar {
+    background-color: #4A4444;
+    padding-top: 1px;
+    color: white;
+    height: 1100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #EFE784;
+    letter-spacing: 20px;
+    font-weight: 100;
+}
+
+.bienvenue {
+    position: relative;
+    top: -300px
+}
+
+h2 {
+    font-size: 40px;
+    border-top: solid 1px #EFE784;
+    border-bottom: solid 1px #EFE784;
+    display: inline;
+    position: absolute;
+    left: 47%;
+    font-weight: 400;
+}
+
+#titre {
+    letter-spacing: 15px;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: left;
+    color: #6CBCB3;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 40px;
+    text-align: left;
+    color: #4A4444;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 300;
+}
+
+p {
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+.parent {
+    position: relative;
+}
+
+.legheader {
+    width: 152%;
+    margin-left: -26%;
+}
+
+.enfant {
+    position: absolute;
+}
+
+.logoheader {
+    display: block;
+    margin-top: -450px;
+    margin-left: 380px;
+}
+
+#para {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'roboto';
+    font-size: 150%;
+}
+
+.avengerspic {
+    margin-left: -1%;
+    width: 1150px;
+}
+
+.bradley {
+    margin-left: -1%;
+    width: 1150px;
+}
+
+.woman {
+    margin-left: -1%;
+    width: 1150px;
+}
+
+.creditav {
+    color: #6CBCB3;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.creditav2 {
+    color: #6CBCB3;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.creditasb {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.creditasb2 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.creditwaw {
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.creditwaw2 {
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+#bottom {
+    padding-top: 1px;
+    padding-bottom: 2px;
+    background-color: black;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+.logobottom {
+    display: block;
+    margin-left: -15%;
+    width: 18%;
+    margin-top: 5%;
+}
+
+.bottom1 {
+    letter-spacing: 1px;
+    color: white;
+    margin-left: -15%;
+}
+
+.bottom2 {
+    letter-spacing: 1px;
+    color: white;
+    margin-left: -15%;
+}
