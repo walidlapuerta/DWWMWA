@@ -6,7 +6,7 @@ $nombre2 = readline ("entrez un nombre");
 if  ($nombre<0)  {
     echo "negatif";
 }
-elseif ($nombre>0) {
+elseif ($nombre2>0) {
     echo "positif";
 }
 else {
