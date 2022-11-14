@@ -15,6 +15,4 @@ elseif ($NOMBRE>=14) {
     echo "Hello" ;
 }
 
-
-
 ?>

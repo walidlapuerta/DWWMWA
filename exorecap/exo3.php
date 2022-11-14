@@ -37,6 +37,7 @@ $Reponse3 = readline("Votre personne est-il moustachu ?") ;
     elseif (false) {
         echo "$MlleRose, $ProfViolet, $RvdOlive, $MmeLeblanc" ;
     }
+    
 
 $Reponse4 = readline ("Votre personnage porte-t-il un chapeau ?") ;
 if (true) {
@@ -45,7 +46,5 @@ echo "Votre personnage est" .$ProfViolet ;
 elseif (false) {
     echo "$ColMoutarde, $RvdOlive, $MlleRose, $MmeLeblanc" ;
 }
-
-
 
 ?>
