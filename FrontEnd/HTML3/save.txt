@@ -1,0 +1,21 @@
+ <h1>Welcome to Jurassic Park</h1>
+    <img class="image1" src="https://static.posters.cz/image/750/toiles-jurassic-park-classic-logo-i111309.jpg" alt="">
+    <h1>Synopsis</h1>
+    <p>John Parker Hammond, le PDG de la puissante compagnie nommée InGen, parvient à donner vie à des dinosaures grâce
+        à la génétique et décide de les utiliser dans le cadre d’un parc d'attractions qu’il compte ouvrir sur une île
+        au large du Costa Rica.
+        Avant l'ouverture, il fait visiter le parc à un groupe d'experts pour obtenir leur aval. Pendant la visite, une
+        tempête éclate et un informaticien corrompu par une entreprise rivale en profite pour couper les systèmes de
+        sécurité afin de voler des embryons de dinosaures. En l'absence de tout système de sécurité pendant plusieurs
+        heures, les dinosaures s'échappent sans mal, et le cauchemar des visiteurs commence.</p>
+    <img src="https://media.vanityfair.fr/photos/60d372542a21839d00a02fed/16:9/w_1280,c_limit/vf_jurassic_park_7587.jpeg"
+        alt="">
+    <h2>Pourquoi Jurassic Park est un classique</h2>
+    <p>Un statut qui ne doit rien au hasard puisque le film de Steven Spielberg regroupe à lui seul toutes les qualités
+        d'un bon film de divertissement : une histoire prenante, des personnages attachants remarquablement interprétés,
+        des répliques accrocheuses, des musiques sublimes, sans oublier ses impressionnants effets ...</p>
+    <img src="image/content_jurassic-park-raptor-suit-blog-8.webp" alt="">
+    <h3>Avis des cinéphiles</h2>
+    <p>Hello le tout 1er film 1993 , j'avais 28 ans je l'ai vu dans une salle a Aubagne 13400 a 20 km de Marseille
+        un film fantastique , scénario réalisation tout est super effet spéciaux actrices ,acteurs jouent très très
+        bien super voila j'ai été agréablement surpris en 1993.</p>
