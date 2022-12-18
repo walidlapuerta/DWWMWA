@@ -1,7 +1,7 @@
 <?php
 
-interface Chasseur {
-    public function SeDeplacer($lapin) ;
+interface SeDeplacer {
+    public function SeDeplacer() ;
 }
 
 
