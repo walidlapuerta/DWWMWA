@@ -81,11 +81,64 @@ Exo 2 :
 
 1. SELECT personnage.nom, classe.nom FROM personnage 
 INNER JOIN classe ON personnage.idClasse = classe.idClasse
-2. SELECT personnage.nom, classe.nom, personnage.surnom FROM personnage 
-INNER JOIN classe ON personnage.idClasse = classe.idClasse
+2. SELECT p.nom, c.nom, p.surnom FROM personnage p
+INNER JOIN classe c ON p.idClasse = c.idClasse
 3.SELECT * FROM personnage 
 INNER JOIN arme ON personnage.idArmeutilise = arme.idArme
 
 4.SELECT arme.typearme, personnage.nom, arme.nom, arme.levelMin, arme.degat, typearme.libelle, arme.degat FROM personnage 
 INNER JOIN arme ON personnage.idArmeutilise = arme.idArme
 INNER JOIN typearme ON arme.idTypeArme = typearme.idTypeArme
+
+
+Exo 3 :
+
+1. SELECT p.nom, p.level, a.nom, a.levelMin FROM personnage p
+INNER JOIN arme a ON p.idArmeUtilise = a.idArme 
+
+2. SELECT t.libelle, a.nom, a.degat, a.levelMin FROM typearme t 
+INNER JOIN arme a ON t.idTypeArme = a.idTypeArme WHERE t.estDistance = false
+
+3. SELECT * FROM personnage p 
+INNER JOIN dispose d ON p.idPersonnage = d.idPersonnage
+INNER JOIN arme a ON d.idArme = a.idArme 
+INNER JOIN typearme t ON a.idTypeArme = t.idTypeArme
+WHERE idClasse = 1
+
+Exo 4 :
+
+1. SELECT p.idPersonnage, p.nom AS 'Perso', a.nom AS 'Weapon' FROM personnage p
+INNER JOIN dispose d ON p.idPersonnage = d.idPersonnage
+INNER JOIN arme a ON d.idArme = a.idArme 
+INNER JOIN typearme ON a.idTypeArme = typearme.idTypeArme
+WHERE level = 10 
+
+2. SELECT * FROM personnage p
+INNER JOIN dispose d ON p.idPersonnage = d.idPersonnage
+INNER JOIN arme a ON d.idArme = a.idArme 
+INNER JOIN typearme ON a.idTypeArme = typearme.idTypeArme
+WHERE level = 10
+ORDER BY p.idPersonnage ASC
+
+
+3. SELECT AVG(degat) AS 'Moyenne des degats' FROM arme a
+INNER JOIN typearme t ON a.idTypeArme = t.idTypeArme
+WHERE t.estDistance = true
+
+4. SELECT * FROM personnage p 
+INNER JOIN dispose d ON p.idPersonnage = d.idPersonnage
+INNER JOIN arme a ON d.idArme = a.idArme 
+INNER JOIN typearme ON a.idTypeArme = typearme.idTypeArme
+WHERE typearme.libelle LIKE 'a%'
+
+Exo 5 :
+
+1. SELECT *  
+FROM typearme
+LEFT JOIN arme ON typearme.idTypeArme = arme.idTypeArme
+
+2. SELECT *  
+FROM arme 
+RIGHT JOIN typearme ON arme.idTypeArme = typearme.idTypeArme
+
+3. 
